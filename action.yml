@@ -1,0 +1,10 @@
+name: 'testaction'
+description: 'This action takes in an input and echos it'
+author: 'abelsquidhead'
+inputs:
+  myInput:
+    description: 'Input to use'
+    default: 'world'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
